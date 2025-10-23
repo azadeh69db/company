@@ -1052,6 +1052,7 @@ body {
 .fashionsection {
     flex-wrap: wrap;
     max-width:100%;
+    overflow: hidden;
     display: grid;
     /* grid-template-columns: 1fr; */
     background-color: rgb(255, 255, 255);
