@@ -35,8 +35,6 @@ body {
 
 main {
     display: block;
-    max-width: 1200px;
-    height: auto;
 }
 
 /**
@@ -390,10 +388,6 @@ template {
 body {
     overflow-x: hidden;
 }
-.headermain{
-    max-width: 1200px;
-    height: auto;
-}
 
 .header {
     position: relative;
@@ -545,7 +539,7 @@ body {
     background-color: black;
     color: azure;
     left: 300px;
-    max-width: 50px;
+    width: 50px;
     padding: 10px 0;
     box-sizing: border-box;
 
@@ -983,8 +977,8 @@ body {
 /* fashion */
 
 .fashionimg1 {
-   max-width:100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -998,8 +992,8 @@ body {
 }
 
 .fashionimg2 {
-    max-width:100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1013,8 +1007,8 @@ body {
 }
 
 .fashionimg3 {
-    max-width:100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1028,8 +1022,8 @@ body {
 }
 
 .fashionimg4 {
-    max-width:100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1043,8 +1037,8 @@ body {
 }
 
 .fashionimg5 {
-    max-width:100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1990,14 +1984,8 @@ body {
     background-image: url(../imagE/177_large_2x.jpg);
 
 }
-<<<<<<< HEAD
 
 
-=======
-.containermain{
-   /* padding: 10px; */
-}
->>>>>>> a119f362ea2b9436e9948acc8d827979844bf774
 
 @media only screen and (max-width: 1000px) {
     .menumobileright {
@@ -2168,7 +2156,7 @@ body {
     .fashionsection {
         flex-wrap: wrap;
         max-width: 100%;
-        height: auto;
+
         display: grid;
 
         grid-template-columns: 1fr;
@@ -2220,8 +2208,6 @@ body {
         overflow: hidden;
         background-color: hsl(228, 5%, 79%);
         margin: 40px;
-        max-width: 100%;
-        height: auto;
 
         display: flex;
         flex-direction: column;
@@ -2317,7 +2303,7 @@ body {
     }
 
     .btnsearch {
-        left: 210px;
+        left: 230px;
     }
 
     .cart {
@@ -2410,7 +2396,7 @@ body {
 
 
     .btnsearch {
-        left: 460px;
+        left: 480px;
         margin-top: 10px;
 
     }
