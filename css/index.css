@@ -977,8 +977,8 @@ body {
 /* fashion */
 
 .fashionimg1 {
-    width: 300px;
-    height: 400px;
+   max-width:100%;
+    height: auto;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -992,8 +992,8 @@ body {
 }
 
 .fashionimg2 {
-    width: 300px;
-    height: 400px;
+    max-width:100%;
+    height: auto;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1007,8 +1007,8 @@ body {
 }
 
 .fashionimg3 {
-    width: 300px;
-    height: 400px;
+    max-width:100%;
+    height: auto;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1022,8 +1022,8 @@ body {
 }
 
 .fashionimg4 {
-    width: 300px;
-    height: 400px;
+    max-width:100%;
+    height: auto;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1037,8 +1037,8 @@ body {
 }
 
 .fashionimg5 {
-    width: 300px;
-    height: 400px;
+    max-width:100%;
+    height: auto;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -2154,7 +2154,7 @@ body {
     .fashionsection {
         flex-wrap: wrap;
         max-width: 100%;
-
+        height: auto;
         display: grid;
 
         grid-template-columns: 1fr;
@@ -2206,6 +2206,8 @@ body {
         overflow: hidden;
         background-color: hsl(228, 5%, 79%);
         margin: 40px;
+        max-width: 100%;
+        height: auto;
 
         display: flex;
         flex-direction: column;
