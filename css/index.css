@@ -731,7 +731,7 @@ body {
     justify-content: center;
 }
 
-.btnrightNAV::before {
+/* .btnrightNAV::before {
     z-index: -1;
     position: absolute;
     display: flex;
@@ -743,7 +743,7 @@ body {
     right: 80px;
     bottom: 2px;
     background-color: rgb(152, 149, 149);
-}
+} */
 
 .menurightnav {
     padding: 0;
