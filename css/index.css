@@ -2037,6 +2037,13 @@ body {
     /* .cart::before {
         display: none;
     } */
+     .titleslider{
+        display: none;
+     }
+     body{
+
+        overflow-x: hidden;
+     }
 }
 
 @media only screen and (max-width: 808px) {
