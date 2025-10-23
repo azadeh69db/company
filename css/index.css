@@ -381,7 +381,12 @@ template {
     display: none;
 }
 
-
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
 .header {
     position: relative;
     background-color: rgb(204, 43, 43);
@@ -964,75 +969,7 @@ body {
 
 /* fashion */
 
-.imgdetail1f {
-    width: 300px;
-    height: 400px;
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
 
-    background-image: url(../image/005.jpg);
-}
-
-
-.imgdetail1f:hover {
-    width: 300px;
-    height: 400px;
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../image/0005.jpg);
-
-}
-
-
-.imgdetail2f {
-    width: 300px;
-    height: 400px;
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
-
-    background-image: url(../image/006.jpg);
-}
-
-.imgdetail2f:hover {
-    background-image: url(../image/0006.jpg);
-
-
-}
-
-.imgdetail3f {
-    width: 300px;
-    height: 400px;
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
-
-    background-image: url(../image/007.jpg);
-}
-
-.imgdetail3:hover {
-    background-image: url(../image/0007.jpg);
-
-
-}
-
-.imgdetail4f {
-    width: 300px;
-    height: 400px;
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
-
-    background-image: url(../image/008.jpg);
-}
-
-.imgdetail4f:hover {
-    background-image: url(../image/008.jpg);
-
-
-}
 
 /* .fashionsection {
     display: grid;
@@ -1049,36 +986,6 @@ body {
 
 }
 
-.fashionsection {
-    flex-wrap: wrap;
-    max-width:100%;
-    background-color: red;
-    overflow: hidden;
-    display: grid;
-    /* grid-template-columns: 1fr; */
-    margin: 40px;
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-}
-
-.fashionright {
-    display: flex;
-    flex-direction: column;
-    /* background-color: red; */
-}
-
-.fashionleft {
-    display: flex;
-    flex-direction: column;
-    border: none;
-    border-top-color: 30px solid red;
-    width: 163px;
-    color: black;
-    background-color: #ffffff;
-}
-
-.topfashionr {}
 
 
 .afashion {
@@ -2047,10 +1954,24 @@ body {
     }
 
 
-    /* 
-    .fashionsection {
-        
-    } */
+   .fashionsection {
+    flex-wrap: wrap;
+    max-width:100%;
+    height: auto;
+    background-color: red;
+    overflow: hidden;
+    display: grid;
+   }
+  .fashionsection {
+    flex-wrap: wrap;
+    max-width:100%;
+   
+    display: grid;
+   
+    grid-template-columns: 1fr;
+
+  align-items: center;
+}
 
     .probanner {
         display: flex;
