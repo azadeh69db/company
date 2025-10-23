@@ -381,12 +381,14 @@ template {
     display: none;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 .header {
     position: relative;
     background-color: rgb(204, 43, 43);
@@ -974,6 +976,80 @@ body {
 
 /* fashion */
 
+.fashionimg1 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(../image/1.jpg);
+}
+
+.fashionimg1:hover {
+    background-image: url(../image/11.jpg);
+
+}
+
+.fashionimg2 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(../image/2.jpg);
+}
+
+.fashionimg2:hover {
+    background-image: url(../image/02.jpg);
+
+}
+
+.fashionimg3 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(../image/3.jpg);
+}
+
+.fashionimg3:hover {
+    background-image: url(../image/03.jpg);
+
+}
+
+.fashionimg4 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(../image/4.jpg);
+}
+
+.fashionimg4:hover {
+    background-image: url(../image/04.jpg);
+
+}
+
+.fashionimg5 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(../image/5.jpg);
+}
+
+.fashionimg5:hover {
+    background-image: url(../image/0005.jpg);
+
+}
 
 
 /* .fashionsection {
@@ -1959,24 +2035,25 @@ body {
     }
 
 
-   .fashionsection {
-    flex-wrap: wrap;
-    max-width:100%;
-    height: auto;
-    background-color: red;
-    overflow: hidden;
-    display: grid;
-   }
-  .fashionsection {
-    flex-wrap: wrap;
-    max-width:100%;
-   
-    display: grid;
-   
-    grid-template-columns: 1fr;
+    .fashionsection {
+        flex-wrap: wrap;
+        max-width: 100%;
+        height: auto;
+        background-color: red;
+        overflow: hidden;
+        display: grid;
+    }
 
-  align-items: center;
-}
+    .fashionsection {
+        flex-wrap: wrap;
+        max-width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        align-items: center;
+    }
 
     .probanner {
         display: flex;
@@ -2035,16 +2112,18 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
     /* .cart::before {
         display: none;
     } */
-     .titleslider{
+    .titleslider {
         display: none;
-     }
-     body{
+    }
+
+    body {
 
         overflow-x: hidden;
-     }
+    }
 }
 
 @media only screen and (max-width: 808px) {
