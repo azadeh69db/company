@@ -1877,6 +1877,115 @@ body {
     background-image: url(../image/212_large.jpg);
 
 }
+/* Gifts, Parties & Holiday */
+.GIFimg1 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/144_large.jpg);
+}
+
+.GIFimg1:hover {
+    background-image: url(../image/144_large_2x.jpg);
+
+}
+.GIFimg2 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/145_large.jpg);
+}
+
+.GIFimg2:hover {
+    background-image: url(../image/145_large_2x.jpg);
+
+}
+.GIFimg3 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/150_large_2x.jpg);
+}
+
+.GIFimg3:hover {
+    background-image: url(../image/151_large_2x.jpg);
+
+}
+.GIFimg4 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/153_large.jpg);
+}
+
+.GIFimg4:hover {
+    background-image: url(../image/153_large_2x.jpg);
+
+}
+
+.GIFimg5 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/154_large.jpg);
+}
+
+.GIFimg5:hover {
+    background-image: url(../image/154_large_2x.jpg);
+
+}
+
+.GIFimg6 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/157_large_2x.jpg);
+}
+
+.GIFimg6:hover {
+    background-image: url(../image/158_large_2x.jpg);
+
+}
+.GIFimg7 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/163_large.jpg);
+}
+
+.GIFimg7:hover {
+    background-image: url(../image/163_large_2x.jpg);
+
+}
+.GIFimg8 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/176_large_2x.jpg);
+}
+
+.GIFimg8:hover {
+    background-image: url(../imagE/177_large_2x.jpg);
+
+}
+
+
 
 @media only screen and (max-width: 1000px) {
     .menumobileright {
