@@ -2213,6 +2213,7 @@ body {
     }
 
     .searchcart {
+        z-index: 1;
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
