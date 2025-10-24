@@ -2010,6 +2010,60 @@ body {
 
 }
 
+/* Beauty & Health */
+.Beautyimg1 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/63_large.jpg);
+}
+
+.Beautyimg1:hover {
+    background-image: url(../image/62_large.jpg);
+
+}
+.Beautyimg2 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/67_large.jpg);
+}
+
+.Beautyimg2:hover {
+    background-image: url(../image/68_large.jpg);
+
+}
+.Beautyimg3 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/70_large.jpg);
+}
+
+.Beautyimg3:hover {
+    background-image: url(../image/71_large.jpg);
+
+}
+
+.Beautyimg4 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/223_large.jpg);
+}
+
+.Beautyimg4:hover {
+    background-image: url(../image/224_large.jpg);
+
+}
 
 
 @media only screen and (max-width: 1000px) {
