@@ -2335,9 +2335,9 @@ body {
 
     }
 
-    .btnsearch {
+    /* .btnsearch {
         left: 230px;
-    }
+    } */
 
     .cart {
         position: relative;
@@ -2437,7 +2437,7 @@ body {
 
 
     .btnsearch {
-        left: 480px;
+        /* left: 480px; */
         margin-top: 10px;
 
     }
