@@ -2427,10 +2427,7 @@ body {
         justify-content: center;
     }
 
-    .slidertrack {
-        display: grid;
-        align-items: center;
-    }
+  
 
     .probanner {
         display: flex;
@@ -2455,8 +2452,10 @@ body {
 @media only screen and (max-width: 408px) {
     .slidertrack {
         display: grid;
+        padding-left: 60px;
         grid-template-columns: 1fr;
         align-items: center;
+        justify-content: center;
 
     }
 
