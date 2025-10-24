@@ -561,8 +561,7 @@ body {
 }
 
 .searchcart {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
 }
 
 .messagecart {
@@ -2490,11 +2489,16 @@ body {
         justify-items: center;
 
     }
-    .inputclass{
+    /* .inputclass{
+        position: relative;
         width: 150px;
-    }
-    .btnsearch{
-      margin-right: 190px;
-    }
-
+    } */
+    /* .btnsearch{
+        position: absolute;
+      margin-right: 10px;
+    } */
+.searchcart{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 }
