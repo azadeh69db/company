@@ -1114,7 +1114,7 @@ body {
 
 .sliderdetailcontainer {
     position: relative;
-    max-width: 1200px;
+    width:100%;
   margin: 0 auto;
     height: auto;
     background-color: rgb(224, 222, 222);
@@ -1152,10 +1152,11 @@ body {
 .slidertrack {
     max-width: 1200px;
     height: auto;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     display: grid;
     justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
@@ -2466,7 +2467,7 @@ body {
 @media only screen and (max-width: 408px) {
     .slidertrack {
         display: grid;
-        padding-left: 60px;
+     
         grid-template-columns: 1fr;
         align-items: center;
         justify-content: center;
