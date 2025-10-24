@@ -1150,14 +1150,12 @@ body {
 
 /* add to cart */
 .slidertrack {
-    max-width: 1200px;
+    width:100%;
     height: auto;
-    /* position: relative; */
+    position: relative;
     overflow: hidden;
     display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
+   
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
@@ -2468,7 +2466,7 @@ body {
     .slidertrack {
         display: grid;
      
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
         align-items: center;
         justify-content: center;
 
