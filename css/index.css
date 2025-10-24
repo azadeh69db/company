@@ -2495,7 +2495,8 @@ body {
     } */
     .btnsearch{
         position: absolute;
-      margin-right: 10px;
+      margin-right: 200px;
+     
     }
 .searchcart{
     flex-wrap: wrap;
