@@ -2335,9 +2335,9 @@ body {
 
     }
 
-    /* .btnsearch {
+    .btnsearch {
         left: 230px;
-    } */
+    }
 
     .cart {
         position: relative;
@@ -2437,7 +2437,7 @@ body {
 
 
     .btnsearch {
-        left: 10px;
+        left: 480px;
         margin-top: 10px;
 
     }
@@ -2489,6 +2489,12 @@ body {
         align-items: center;
         justify-items: center;
 
+    }
+    .inputclass{
+        width: 190px;
+    }
+    .btnsearch{
+        right: 190px;
     }
 
 }
