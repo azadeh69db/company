@@ -1259,11 +1259,9 @@ template {
 .imgdetail1:hover {
     background-image: url(../image/1.jpg);
 
-    transform: scale(1, 1);
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+  width: 300px;
+    height: 400px;
+   
 }
 
 
@@ -1278,11 +1276,8 @@ template {
 }
 
 .imgdetail2:hover {
-     transform: scale(1, 1);
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+     width: 300px;
+    height: 400px;
     background-image: url(../image/02.jpg);
 
 
@@ -1300,11 +1295,8 @@ template {
 }
 
 .imgdetail3:hover {
-     transform: scale(1, 1);
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+     width: 300px;
+    height: 400px;
     background-image: url(../image/03.jpg);
 
 
@@ -1321,11 +1313,8 @@ template {
 }
 
 .imgdetail4:hover {
-     transform: scale(1, 1);
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    width: 300px;
+    height: 400px;
     background-image: url(../image/04.jpg);
 
 
