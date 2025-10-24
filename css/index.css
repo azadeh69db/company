@@ -2187,7 +2187,7 @@ input::placeholder {
 
 .blockcenter {
 
-    max-width: 310px;
+    max-width: 309px;
     text-align: justify;
     line-height: 22px;
 
@@ -2195,6 +2195,7 @@ input::placeholder {
 
 .ablockcenter {
     text-decoration: none;
+    color: #000000;
 }
 
 .liblockul {
@@ -2204,7 +2205,7 @@ input::placeholder {
 
 .centerfooter {
     padding: 20px;
-    gap: 19px;
+    gap: 39px;
     display: grid;
 
     align-items: center;
