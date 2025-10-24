@@ -2355,7 +2355,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .imgdetail1{
+    .imgdetail1,.imgdetail2,.imgdetail3,.imgdetail4{
         width: 100%;
     }
     .twoproel {
