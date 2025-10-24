@@ -630,7 +630,6 @@ body {
     gap: 198px;
     font-size: 20px;
     padding: 10px;
-  
 
     color: #ccc;
     background-color: black;
@@ -1240,7 +1239,7 @@ body {
 
 .imgdetail1 {
     max-width: 300px;
-    height: auto;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1257,7 +1256,7 @@ body {
 
 .imgdetail2 {
     max-width: 300px;
-    height: auto;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1273,7 +1272,7 @@ body {
 
 .imgdetail3 {
      max-width: 300px;
-    height: auto;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1289,7 +1288,7 @@ body {
 
 .imgdetail4 {
     max-width: 300px;
-    height: auto;
+    height: 400px;
     display: inline-block;
     background-size: cover;
     background-position: center;
