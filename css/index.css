@@ -609,7 +609,7 @@ template {
 .resultsearch {
     position: absolute;
     left: 0;
-    width:300px;
+    width: 300px;
     top: 130px;
     overflow-y: auto;
     z-index: 10;
@@ -1245,8 +1245,8 @@ template {
 
 
 .imgdetail1 {
-    width:300px;
-    
+    width: 300px;
+
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1259,11 +1259,16 @@ template {
 .imgdetail1:hover {
     background-image: url(../image/1.jpg);
 
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
 }
 
 
 .imgdetail2 {
-    width:300px;
+    width: 300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1273,13 +1278,19 @@ template {
 }
 
 .imgdetail2:hover {
+     transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
     background-image: url(../image/02.jpg);
 
 
 }
 
 .imgdetail3 {
-    width:300px;
+    
+    width: 300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1289,13 +1300,18 @@ template {
 }
 
 .imgdetail3:hover {
+     transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
     background-image: url(../image/03.jpg);
 
 
 }
 
 .imgdetail4 {
-    width:300px;
+    width: 300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1305,6 +1321,11 @@ template {
 }
 
 .imgdetail4:hover {
+     transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
     background-image: url(../image/04.jpg);
 
 
@@ -2105,7 +2126,8 @@ template {
     max-width: 700px;
 }
 
-html , body{
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -2594,11 +2616,16 @@ html , body{
 }
 
 @media only screen and (max-width: 408px) {
-    .imgdetail1 , .imgdetail2,.imgdetail3,.productimg4
-    ,.imgdetail{
+
+    .imgdetail1,
+    .imgdetail2,
+    .imgdetail3,
+    .productimg4,
+    .imgdetail {
         width: 100%;
         height: auto;
     }
+
     .h1blogslider {
         font-size: 15px;
 
