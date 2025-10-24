@@ -626,11 +626,12 @@ body {
 .btnCATEGORIESNAV {
     box-sizing: border-box;
     display: inline-flex;
+    justify-self: center;
   
     gap: 198px;
     font-size: 20px;
     padding: 10px;
-
+   
     color: #ccc;
     background-color: black;
 
@@ -642,6 +643,8 @@ body {
 }
 
 .contentCATEGORIESNAV {
+    position: absolute;
+    margin-top:180px;
     display: none;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -665,7 +668,7 @@ body {
     background-color: transparent;
     font-size: 10px;
     padding: 10px;
-    font-size: 14PX;
+    font-size: 14px;
     white-space: nowrap;
     border: none;
     border-bottom: 1px solid black;
@@ -696,6 +699,7 @@ body {
     margin-bottom: 5px;
 }
 .CATEGORIESNAV{
+  
     display: flex;
     justify-content: center;
     align-items: center;
