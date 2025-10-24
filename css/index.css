@@ -2321,7 +2321,7 @@ body {
     .imgdetail1f,
     .imgdetail2f,
     .imgdetail3f {
-        width: 240px;
+       max-width: 240px;
 
 
     }
@@ -2606,14 +2606,14 @@ body {
 
 @media only screen and (max-width: 408px) {
 
-    .imgdetail1,
+    /* .imgdetail1,
     .imgdetail2,
     .imgdetail3,
     .productimg4,
     .imgdetail {
         width: 100%;
         height: auto;
-    }
+    } */
 
     .h1blogslider {
         font-size: 15px;
