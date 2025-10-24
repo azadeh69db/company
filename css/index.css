@@ -404,9 +404,14 @@ body {
     box-sizing: border-box;
 }
 
-.maincontainer{
-    max-width: 1300px;
-    background-color: antiquewhite;
+.containerone{
+    max-width: 100%;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
 }
 .contentcurency {
     z-index: 2;
@@ -849,9 +854,9 @@ body {
 .slideshow-container {
     top: -20px;
     position: relative;
-    max-width: 100%;
+    max-width: 1300px;
     margin: auto;
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
 }
 
@@ -1108,11 +1113,11 @@ body {
 }
 
 .sliderdetailcontainer {
-    border-top-color: red;
     position: relative;
-    width: 100%;
+    max-width: 1200px;
+  margin: 0 auto;
     height: auto;
-    background-color: rgb(227, 231, 229);
+    background-color: rgb(224, 222, 222);
 }
 
 .prev,
@@ -1145,11 +1150,12 @@ body {
 
 /* add to cart */
 .slidertrack {
-    width: 100%;
+    max-width: 1200px;
     height: auto;
     position: relative;
     overflow: hidden;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
