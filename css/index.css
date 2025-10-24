@@ -626,9 +626,11 @@ body {
 .btnCATEGORIESNAV {
     box-sizing: border-box;
     display: inline-flex;
+  
     gap: 198px;
     font-size: 20px;
     padding: 10px;
+  
 
     color: #ccc;
     background-color: black;
@@ -693,6 +695,11 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
+}
+.CATEGORIESNAV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
