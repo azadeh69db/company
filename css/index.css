@@ -2490,11 +2490,11 @@ body {
         justify-items: center;
 
     }
-    /* .inputclass{
+    .inputclass{
         width: 150px;
     }
     .btnsearch{
-      
-    } */
+      margin-right: 100px;
+    }
 
 }
