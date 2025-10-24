@@ -404,6 +404,9 @@ body {
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1300px;
+}
 .contentcurency {
     z-index: 2;
     display: none;
