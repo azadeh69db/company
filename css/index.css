@@ -2493,10 +2493,10 @@ body {
         position: relative;
         width: 150px;
     } */
-    /* .btnsearch{
+    .btnsearch{
         position: absolute;
       margin-right: 10px;
-    } */
+    }
 .searchcart{
     flex-wrap: wrap;
     flex-direction: column;
