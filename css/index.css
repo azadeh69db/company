@@ -559,6 +559,7 @@ template {
 
 .searchcart {
     display: flex;
+   
 }
 
 .messagecart {
@@ -2695,9 +2696,9 @@ input::placeholder {
 
     .searchcart {
         z-index: 1;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
+
+        flex-direction: column;
+        align-content: center;
     }
 
 
