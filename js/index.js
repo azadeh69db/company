@@ -212,4 +212,21 @@ document.querySelectorAll(".slider").forEach(sliderContainer => {
   // حرکت خودکار
   setInterval(nextSlide, 1900);
 });
+//slideblog
+
+var slideIndexblog = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlidesblog");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexblog++;
+  if (slideIndexblog > x.length) {slideIndexblog = 1} 
+  x[slideIndexblog-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+
 
