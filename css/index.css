@@ -609,7 +609,7 @@ template {
 .resultsearch {
     position: absolute;
     left: 0;
-    max-width: 300px;
+    width:300px;
     top: 130px;
     overflow-y: auto;
     z-index: 10;
@@ -1245,7 +1245,8 @@ template {
 
 
 .imgdetail1 {
-    max-width: 300px;
+    width:300px;
+    
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1262,7 +1263,7 @@ template {
 
 
 .imgdetail2 {
-    max-width: 300px;
+    width:300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1278,7 +1279,7 @@ template {
 }
 
 .imgdetail3 {
-    max-width: 300px;
+    width:300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1294,7 +1295,7 @@ template {
 }
 
 .imgdetail4 {
-    max-width: 300px;
+    width:300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
