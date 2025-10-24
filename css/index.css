@@ -2579,6 +2579,12 @@ body {
 }
 
 @media only screen and (max-width: 408px) {
+    .h1blogslider{
+        font-size: 15px;
+    }
+    .pblogslider{
+        font-size: 12px;
+    }
     .slidertrack {
         display: grid;
 
