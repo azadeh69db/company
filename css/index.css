@@ -404,8 +404,9 @@ body {
     box-sizing: border-box;
 }
 
-.container{
+.maincontainer{
     max-width: 1300px;
+    background-color: antiquewhite;
 }
 .contentcurency {
     z-index: 2;
