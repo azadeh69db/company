@@ -858,7 +858,7 @@ body {
     position: relative;
     max-width: 1300px;
     margin: auto;
-    z-index: 1;
+    z-index: -1;
     overflow: hidden;
 }
 
