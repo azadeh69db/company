@@ -404,16 +404,15 @@ body {
     box-sizing: border-box;
 }
 
-.containerone {
+.containerone{
     max-width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
 }
-
 .contentcurency {
     z-index: 2;
     display: none;
@@ -637,11 +636,11 @@ body {
     box-sizing: border-box;
     display: inline-flex;
     justify-self: center;
-
+  
     gap: 198px;
     font-size: 20px;
     padding: 10px;
-
+   
     color: #ccc;
     background-color: black;
 
@@ -654,7 +653,7 @@ body {
 
 .contentCATEGORIESNAV {
     position: absolute;
-    margin-top: 180px;
+    margin-top:180px;
     display: none;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -708,9 +707,8 @@ body {
     justify-content: center;
     margin-bottom: 5px;
 }
-
-.CATEGORIESNAV {
-
+.CATEGORIESNAV{
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1116,8 +1114,8 @@ body {
 
 .sliderdetailcontainer {
     position: relative;
-    width: 100%;
-    margin: 0 auto;
+    width:100%;
+  margin: 0 auto;
     height: auto;
     background-color: rgb(224, 222, 222);
 }
@@ -1152,12 +1150,12 @@ body {
 
 /* add to cart */
 .slidertrack {
-    width: 100%;
+    width:100%;
     height: auto;
     position: relative;
     overflow: hidden;
     display: grid;
-
+   
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
@@ -1286,7 +1284,7 @@ body {
 }
 
 .imgdetail3 {
-    max-width: 300px;
+     max-width: 300px;
     height: 400px;
     display: inline-block;
     background-size: cover;
@@ -1901,7 +1899,6 @@ body {
     background-image: url(../image/212_large.jpg);
 
 }
-
 /* Gifts, Parties & Holiday */
 .GIFimg1 {
     width: 300px;
@@ -1916,7 +1913,6 @@ body {
     background-image: url(../image/144_large_2x.jpg);
 
 }
-
 .GIFimg2 {
     width: 300px;
     height: 400px;
@@ -1930,7 +1926,6 @@ body {
     background-image: url(../image/145_large_2x.jpg);
 
 }
-
 .GIFimg3 {
     width: 300px;
     height: 400px;
@@ -1944,7 +1939,6 @@ body {
     background-image: url(../image/151_large_2x.jpg);
 
 }
-
 .GIFimg4 {
     width: 300px;
     height: 400px;
@@ -1986,7 +1980,6 @@ body {
     background-image: url(../image/158_large_2x.jpg);
 
 }
-
 .GIFimg7 {
     width: 300px;
     height: 400px;
@@ -2000,7 +1993,6 @@ body {
     background-image: url(../image/163_large_2x.jpg);
 
 }
-
 .GIFimg8 {
     width: 300px;
     height: 400px;
@@ -2018,7 +2010,7 @@ body {
 
 
 @media only screen and (max-width: 1000px) {
-
+  
 
     .menumobileright {
         display: block;
@@ -2355,11 +2347,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .twoproel {
-        display: flex;
-        flex-direction: column;
-    }
-
+      .twoproel {
+    display: flex;
+    flex-direction: column;
+}
     .menumobileright {
         display: block;
     }
@@ -2455,7 +2446,7 @@ body {
         justify-content: center;
     }
 
-
+  
 
     .probanner {
         display: flex;
@@ -2480,10 +2471,10 @@ body {
 @media only screen and (max-width: 408px) {
     .slidertrack {
         display: grid;
-
-        grid-template-columns: 1fr;
+     
+        grid-template-columns: 1fr ;
         align-items: center;
-        justify-content: center;
+        justify-items: center;
 
     }
 
