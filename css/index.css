@@ -2076,7 +2076,11 @@ body {
     height: auto;
     flex-wrap: wrap;
 }
-
+.iconblogslide{
+    display: flex;
+    align-items: center;
+    GAP:10px;
+}
 
 .readblog {
     padding: 10px;
