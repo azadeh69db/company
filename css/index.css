@@ -2074,6 +2074,7 @@ body {
     background-color: #eee;
     width: 100%;
     height: 200px;
+    flex-wrap: wrap;
 }
 
 
@@ -2081,6 +2082,7 @@ body {
     padding: 10px;
     max-width: 800px;
     height: 200px;
+    aspect-ratio: 5/2;
     background-color: rgb(231, 243, 243);
     position: relative; /* برای absolute کردن اسلایدها */
     overflow: hidden;
@@ -2442,6 +2444,18 @@ body {
     /* .imgdetail1,.imgdetail2,.imgdetail3,.imgdetail4{
         width: 100%;
     } */
+     .blogtwitterslider{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+     }
+     .readblog{
+        width:90%;
+        min-width: none;
+     }
+     .twitter2{
+        width: 90%;
+     }
     .twoproel {
         display: flex;
         flex-direction: column;
