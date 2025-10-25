@@ -1020,7 +1020,7 @@ template {
 
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     transition: transform 0.5s ease;
     -webkit-transition: transform 0.5s ease;
     -moz-transition: transform 0.5s ease;
@@ -1760,122 +1760,309 @@ body {
     text-decoration: none;
     color: #000000;
 }
+
 /* containerGifts */
-.containerGifts{
-    padding-top:20px;
+.containerGifts {
+    padding-top: 20px;
     padding-bottom: 60px;
 }
-.iconsort{
-    max-width:30px;
+
+.iconsort {
+    max-width: 30px;
     height: 30px;
 }
-.sort{
+
+.sort {
     display: flex;
-    gap:20px;
+    gap: 20px;
     align-items: center;
 }
-.iconfiltersolrt{
+
+.iconfiltersolrt {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #ffffff;
 }
+
+.homeholiday {
+    padding-left: 20px;
+}
+
 /* sort */
 /* Dropdown Button */
 .dropbtn {
-  background-color: #d0d5d3;
-  color: rgb(0, 0, 0);
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: #d0d5d3;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #bad4bb;
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #bad4bb;
 }
 
 /* The search field */
 #myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 14px 20px 12px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
 }
 
 /* The search field when it gets focus/clicked on */
-#myInput:focus {outline: 3px solid #ddd;}
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  border: 1px solid #ddd;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show {
+    display: block;
+}
 
 
 /* imgholiday */
-.imgholiday{
+.imgholiday {
     display: block;
-    margin: 0 auto;
+
+
 }
+
 /* pagenumber */
 .pagination {
-  display: flex;
-  justify-content: center;
-  list-style: none; /* remove list bullets */
-  padding: 0px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* remove list bullets */
+    padding: 0px;
 }
 
 .pagination li a {
-  display: block; /* let links fill the list item */
-  padding: 8px 12px;
-  text-decoration: none;
-  border: 1px solid gray;
-  color: black;  
-  margin: 0 4px;
-  border-radius: 5px; /* add rounded borders */
+    display: block;
+    /*letlinksfillthelistitem*/
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid gray;
+    color: black;
+    margin: 0 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
-/* sports */
-.sportssidbar{
-    display: flex;
+
+/* sidbar */
+
+
+.listone {
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
     padding: 20px;
-    justify-content: space-around;
-    align-items: center;
+
+
 }
-.rightsidbar{
-    background-color: #ddd;
+
+.firstlist {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 3px solid red;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
 }
-.categorys{
-    background-color: #ccc;
+
+.lilistsidbar {
+    line-height: 30px;
+    list-style-type: none;
+}
+
+.alistsidbar {
+    text-decoration: none;
+}
+
+.heartimg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.titlepli {
+    max-width: 200px;
+}
+
+.imglip {
+    display: flex;
+}
+
+.liheart {
+    list-style-type: none;
+}
+
+.aheart {
+    text-decoration: none;
+
+}
+
+.main {
+    padding: 40px;
+}
+
+/* blog */
+.blogimgtitle {
+    display: flex;
+    gap: 20px;
+
+    border: 1px solid rgb(182, 181, 181);
+    border-right: none;
+    border-left: none;
+}
+.blogtitleend{
+    border: none;
+}
+
+.blogtitle {
+    max-width: 400px;
+    height: 350px;
+}
+
+.imgsleftone {
+    width: 400px;
+    height: 300px;
+
+    background-image: url("../image/199_large.jpg");
+}
+
+
+.imgsleftone:hover {
+    background-image: url("../image/200_large.jpg");
+
+
+
+}
+
+.imgsleftone2 {
+    width: 400px;
+    height: 300px;
+
+    background-image: url("../image/187_large.jpg");
+}
+
+
+.imgsleftone2:hover {
+    background-image: url("../image/200_large.jpg");
+
+}
+
+.imgsleftone3 {
+    width: 400px;
+    height: 300px;
+
+    background-image: url("../image/211_large.jpg");
+}
+
+.imgsleftone3:hover {
+    background-image: url("../image/212");
+
+}
+
+.imgsleftone4 {
+    width: 400px;
+    height: 300px;
+
+    background-image: url("../image/193_large.jpg");
+}
+
+.imgsleftone4:hover {
+    background-image: url("../image/194_large.jpg");
+
+}
+
+.allmain {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fffefe;
+}
+
+.allleft {
+    border: 1px solid rgb(162, 161, 161);
+    border-right: none;
+    border-left: none;
+
+}
+
+.btncart {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.btncart:hover,
+.btntwo:hover {
+    color: orange;
+}
+
+.btntwo {
+    padding: 10px
+}
+
+.carticon {
+    color: #ffff
+}
+
+.containerfirstgif {
+    border: 1px solid rgb(172, 170, 170);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.aquick{
+    text-decoration: none;
+    margin-left:100px;
+    margin-top:20px;
+}
+.imgquick{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 @media only screen and (max-width: 1000px) {
 
