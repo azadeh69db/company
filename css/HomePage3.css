@@ -1905,6 +1905,8 @@ body {
     align-content: center;
 }
 
+
+
 @media only screen and (max-width: 1000px) {
 
     .messagecart {
@@ -2254,10 +2256,10 @@ body {
         margin-right: 100px;
 
 
-            }
+    }
 
-
-             .allmain {
+    /* blogmain responsive */
+    .allmain {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2271,8 +2273,12 @@ body {
         flex-direction: column;
         align-content: center;
     }
-    .Beautyimg1,.Beautyimg2,.Beautyimg3,.Beautyimg4{
-        max-width:200px;
+
+    .Beautyimg1,
+    .Beautyimg2,
+    .Beautyimg3,
+    .Beautyimg4 {
+        max-width: 200px;
         max-height: 200px;
 
     }
@@ -2281,7 +2287,7 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-    
+
     .centerfooter {
 
         grid-template-columns: repeat(2, 1fr);
@@ -2294,7 +2300,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-   
+
 
     .footerend {
         display: flex;
@@ -2446,8 +2452,45 @@ body {
     }
 
 }
+@media only screen and (max-width: 510px) {
+.blogtitle{
+    width: 180px;
+}
+.fonttextblog{
+    font-size: 12px;
+}
+
+}
+
 
 @media only screen and (max-width: 408px) {
+
+
+
+    .allmain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .blogimgtitle {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .Beautyimg1,
+    .Beautyimg2,
+    .Beautyimg3,
+    .Beautyimg4 {
+        max-width: 100px;
+        max-height: 100px;
+
+    }
+
     .centerfooter {
 
         grid-template-columns: 1fr;
