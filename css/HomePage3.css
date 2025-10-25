@@ -2253,25 +2253,11 @@ body {
         align-items: center;
         margin-right: 100px;
 
-    }
+
+            }
 
 
-}
-
-@media only screen and (max-width: 992px) {
-    .centerfooter {
-
-        grid-template-columns: repeat(2, 1fr);
-        align-content: center;
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .allmain {
+             .allmain {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2290,6 +2276,25 @@ body {
         max-height: 200px;
 
     }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .centerfooter {
+
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
 
     .footerend {
         display: flex;
