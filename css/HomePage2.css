@@ -2207,13 +2207,12 @@ body {
     color: #787777;
 }
 
-.pblock,
-.ptesxtfooter {
+.pblock,.ptesxtfooter {
     color: #787777;
 
 }
 
-
+ 
 
 .liblockul {
     text-decoration: none;
@@ -2295,9 +2294,6 @@ body {
 
 @media only screen and (max-width: 1000px) {
 
-    .messagecart {
-        display: none;
-    }
 
     .menumobileright {
         display: block;
