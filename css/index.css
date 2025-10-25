@@ -806,6 +806,8 @@ template {
     flex-direction: column;
     background-color: rgb(243, 237, 237);
     max-width: 200px;
+    height: 200px;
+   
     justify-content: center;
     align-items: center;
     padding: 10px 0;
@@ -2387,10 +2389,14 @@ body {
     .contentHomemobile {
         display: none;
         position: absolute;
-        background-color: rgb(221, 227, 227);
+        background-color: rgb(255, 255, 255);
         z-index: 10;
+        width:190px;
+        height: 300px;;
         top: 40px;
         left: 100px;
+        width: 950px;
+        height: 100px;
     }
 
     .menurightnavmobile:hover .contentHomemobile {
