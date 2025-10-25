@@ -389,8 +389,8 @@ template {
 }
 
 /* a list menu */
-.alistmenup{
-text-decoration: none;
+.alistmenup {
+    text-decoration: none;
 }
 
 .header {
@@ -809,6 +809,8 @@ text-decoration: none;
     flex-direction: column;
     background-color: rgb(243, 237, 237);
     max-width: 200px;
+    height: 300px;
+
     justify-content: center;
     align-items: center;
     padding: 10px 0;
@@ -1958,7 +1960,8 @@ body {
     border-right: none;
     border-left: none;
 }
-.blogtitleend{
+
+.blogtitleend {
     border: none;
 }
 
@@ -2057,16 +2060,19 @@ body {
     border-right: none;
     border-left: none;
 }
-.aquick{
+
+.aquick {
     text-decoration: none;
-    margin-left:100px;
-    margin-top:20px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
-.imgquick{
+
+.imgquick {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
+
 @media only screen and (max-width: 1000px) {
 
     .messagecart {
