@@ -388,6 +388,11 @@ template {
     box-sizing: border-box;
 }
 
+/* a list menu */
+.alistmenup{
+text-decoration: none;
+}
+
 
 
 .header {
