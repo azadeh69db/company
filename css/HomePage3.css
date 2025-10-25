@@ -2274,14 +2274,21 @@ body {
     .allmain {
         display: flex;
         flex-direction: column;
+        align-items: center;
         align-content: center;
 
     }
 
     .blogimgtitle {
         display: flex;
+        align-items: center;
         flex-direction: column;
         align-content: center;
+    }
+    .Beautyimg1,.Beautyimg2,.Beautyimg3,.Beautyimg4{
+        max-width:200px;
+        max-height: 200px;
+
     }
 
     .footerend {
