@@ -2207,10 +2207,12 @@ body {
     color: #787777;
 }
 
-.pblock {
+.pblock,.ptesxtfooter {
     color: #787777;
 
 }
+
+ 
 
 .liblockul {
     text-decoration: none;
