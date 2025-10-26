@@ -853,15 +853,6 @@ text-decoration: none;
     box-sizing: border-box
 }
 
-
-
-
-
-
-
-
-
-
 /* probanner */
 .probanner {
     display: flex;
@@ -874,34 +865,6 @@ text-decoration: none;
     width: 100%;
 }
 
-.sliderdetailcontainer {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-    background-color: rgb(224, 222, 222);
-}
-
-.prev,
-.next {
-    position: absolute;
-    top: 10px;
-    background-color: rgb(0, 0, 0);
-    color: azure;
-    border: none;
-    font-size: 2rem;
-    padding: 5px 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
 
 .imgsliderdetal {
 
@@ -1009,9 +972,9 @@ text-decoration: none;
 
 
 .imgdetail1 {
-    width: 300px;
+    width: 200px;
 
-    height: 400px;
+    height: 300px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1023,15 +986,17 @@ text-decoration: none;
 .imgdetail1:hover {
     background-image: url(../image/1.jpg);
 
-    width: 300px;
-    height: 400px;
+    width: 200px;
+
+    height: 300px;
 
 }
 
 
 .imgdetail2 {
-    width: 300px;
-    height: 400px;
+     width: 200px;
+
+    height: 300px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1049,8 +1014,9 @@ text-decoration: none;
 
 .imgdetail3 {
 
-    width: 300px;
-    height: 400px;
+     width: 200px;
+
+    height: 300px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1059,16 +1025,18 @@ text-decoration: none;
 }
 
 .imgdetail3:hover {
-    width: 300px;
-    height: 400px;
+     width: 200px;
+
+    height: 300px;
     background-image: url(../image/03.jpg);
 
 
 }
 
 .imgdetail4 {
-    width: 300px;
-    height: 400px;
+     width: 200px;
+
+    height: 300px;
     display: inline-block;
     background-size: cover;
     background-position: center;
@@ -1077,8 +1045,9 @@ text-decoration: none;
 }
 
 .imgdetail4:hover {
-    width: 300px;
-    height: 400px;
+     width: 200px;
+
+    height: 300px;
     background-image: url(../image/04.jpg);
 
 
