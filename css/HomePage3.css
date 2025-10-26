@@ -2000,11 +2000,11 @@ body {
 
     .contentHomemobile {
 
-       
+
 
         display: none;
         position: absolute;
-        background-color: rgb(221, 227, 227);
+        background-color: rgb(255, 255, 255);
         z-index: 10;
         top: 40px;
         left: 100px;
@@ -2065,10 +2065,11 @@ body {
         margin-top: -45px;
     }
 
-    .alistmenup{
+    .alistmenup {
         text-decoration: none;
     }
-     .slidedetail {
+
+    .slidedetail {
         margin-bottom: 10px;
         display: flex;
         justify-content: center;
@@ -2478,7 +2479,9 @@ body {
 
 @media only screen and (max-width: 408px) {
 
-
+    .btntext1 {
+        display: none;
+    }
 
     .allmain {
         display: flex;

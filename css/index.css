@@ -2672,6 +2672,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    
     .footerend {
         display: flex;
         flex-direction: column;
@@ -2824,6 +2825,9 @@ body {
 }
 
 @media only screen and (max-width: 408px) {
+    .btntext1{
+        display: none;
+    }
     .centerfooter {
 
         grid-template-columns: 1fr;
