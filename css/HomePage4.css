@@ -1184,7 +1184,7 @@ template {
     width: 60px;
     height: 60px;
     position: absolute;
-    background-color: red;
+    background-color: rgb(213, 174, 174);
     color: #fff;
 }
 
@@ -1809,7 +1809,7 @@ body {
     align-items: center;
     width:210px;
     padding-top: 20px;
-    background-color: #db1b1b;
+    background-color: #c8c4c4;
 
 }
 
