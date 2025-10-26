@@ -2062,7 +2062,10 @@ body {
         margin-top: -45px;
     }
 
-    .slidedetail {
+    .alistmenup{
+        text-decoration: none;
+    }
+     .slidedetail {
         margin-bottom: 10px;
         display: flex;
         justify-content: center;
@@ -2452,17 +2455,20 @@ body {
     }
 
 }
+
 @media only screen and (max-width: 510px) {
-.blogtitle{
-    width: 130px;
-}
-.fonttextblog{
-    font-size: 12px;
-}
-.iconfiltersolrt{
-    display: flex;
-    flex-direction: column;
-}
+    .blogtitle {
+        width: 130px;
+    }
+
+    .fonttextblog {
+        font-size: 12px;
+    }
+
+    .iconfiltersolrt {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 

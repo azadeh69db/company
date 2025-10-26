@@ -2025,6 +2025,9 @@ body {
         height: 200px;
         margin-top: -45px;
     }
+     .alistmenup{
+        text-decoration: none;
+    }
 
     .slidedetail {
         margin-bottom: 10px;
