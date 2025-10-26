@@ -2397,11 +2397,10 @@ body {
         background-color: rgb(255, 255, 255);
         z-index: 10;
         width:190px;
-        height: 300px;;
+        /* height: 300px; */
         top: 40px;
         left: 100px;
         width: 950px;
-        height: 100px;
     }
 
     .menurightnavmobile:hover .contentHomemobile {

@@ -1999,6 +1999,9 @@ body {
     }
 
     .contentHomemobile {
+
+       
+
         display: none;
         position: absolute;
         background-color: rgb(221, 227, 227);
