@@ -998,7 +998,7 @@ template {
 .week {
     color: red;
     margin-left: 100px;
-    ;
+    
 }
 
 
@@ -1283,7 +1283,8 @@ template {
     height: auto;
     flex-wrap: wrap;
 }
-.iconblog{
+
+.iconblog {
     display: none;
 }
 
@@ -1622,7 +1623,7 @@ body {
 
 
 .listone {
-    width: 100%;
+    max-width: 250px;
     height: auto;
     background-color: #e5e5e5;
     padding: 20px;
@@ -1680,6 +1681,8 @@ body {
     display: flex;
     gap: 20px;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 
     border: 1px solid rgb(182, 181, 181);
     border-right: none;
@@ -1691,13 +1694,16 @@ body {
 }
 
 .blogtitle {
-    max-width: 250px;
-    height: 350px;
+    text-align: center;
+    max-width: 180px;
+    height: 230px;
 }
 
 .imgsleft1 {
-    width: 200px;
-    height: 300px;
+
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
 
     background-image: url("../image/199_large.jpg");
 }
@@ -1710,16 +1716,20 @@ body {
 
 }
 
-.imgsleft2 {
-    width: 400px;
-    height: 300px;
+.blogtitle:hover .iconblog {
+    display: block;
+}
 
-    background-image: url("../image/187_large.jpg");
+.imgsleft2 {
+   width: 190px;
+    height: 200px;
+
+    background-image: url("../image/193_large.jpg");
 }
 
 
 .imgsleft2:hover {
-    background-image: url("../image/200_large.jpg");
+    background-image: url("../image/194_large.jpg");
 
 }
 
@@ -1731,7 +1741,7 @@ body {
 }
 
 .imgsleftone3:hover {
-    background-image: url("../image/212");
+    background-image: url("../image/212_large.jpg");
 
 }
 
@@ -1796,6 +1806,11 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
+    width:210px;
+    padding-top: 20px;
+    background-color: #db1b1b;
+
 }
 
 
@@ -1974,25 +1989,6 @@ body {
     }
 
 
-    .fashionsection {
-        flex-wrap: wrap;
-        max-width: 100%;
-        height: auto;
-        background-color: red;
-        overflow: hidden;
-        display: grid;
-    }
-
-    .fashionsection {
-        flex-wrap: wrap;
-        max-width: 100%;
-
-        display: grid;
-
-        grid-template-columns: 1fr;
-
-        align-items: center;
-    }
 
     .probanner {
         display: flex;
